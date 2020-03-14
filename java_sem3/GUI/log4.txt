@@ -1,0 +1,1120 @@
+---PrgID--- 
+4
+---ExeStack--- 
+[(string varf) ; (varf=test.in) ; open(varf) ; (int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf)]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[(varf=test.in) ; open(varf) ; (int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf), (string varf)]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[(varf=test.in) ; open(varf) ; (int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf), (string varf)]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[(varf=test.in) ; open(varf) ; (int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf)]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[(varf=test.in) ; open(varf) ; (int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf)]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[open(varf) ; (int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf), (varf=test.in)]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[open(varf) ; (int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf), (varf=test.in)]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[open(varf) ; (int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf)]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[open(varf) ; (int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf)]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[(int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf), open(varf)]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[(int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf), open(varf)]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[(int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf)]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[(int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf)]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf), (int varc)]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf), (int varc)]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[print(varc) ; read(varc,varf) ; print(varc) ; close(varf), read(varc,varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[print(varc) ; read(varc,varf) ; print(varc) ; close(varf), read(varc,varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[print(varc) ; read(varc,varf) ; print(varc) ; close(varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[print(varc) ; read(varc,varf) ; print(varc) ; close(varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[read(varc,varf) ; print(varc) ; close(varf), print(varc)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[read(varc,varf) ; print(varc) ; close(varf), print(varc)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[read(varc,varf) ; print(varc) ; close(varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[read(varc,varf) ; print(varc) ; close(varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[print(varc) ; close(varf), read(varc,varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[print(varc) ; close(varf), read(varc,varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[print(varc) ; close(varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[print(varc) ; close(varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[close(varf), print(varc)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[close(varf), print(varc)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[close(varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0, 0]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[close(varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0, 0]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0, 0]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[(string varf) ; (varf=test.in) ; open(varf) ; (int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf)]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[(varf=test.in) ; open(varf) ; (int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf), (string varf)]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[(varf=test.in) ; open(varf) ; (int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf), (string varf)]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[(varf=test.in) ; open(varf) ; (int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf)]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[(varf=test.in) ; open(varf) ; (int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf)]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[open(varf) ; (int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf), (varf=test.in)]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[open(varf) ; (int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf), (varf=test.in)]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[open(varf) ; (int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf)]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[open(varf) ; (int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf)]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[(int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf), open(varf)]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[(int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf), open(varf)]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[(int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf)]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[(string varf) ; (varf=test.in) ; open(varf) ; (int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf)]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[(varf=test.in) ; open(varf) ; (int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf), (string varf)]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[(varf=test.in) ; open(varf) ; (int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf), (string varf)]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[(varf=test.in) ; open(varf) ; (int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf)]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[(varf=test.in) ; open(varf) ; (int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf)]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[open(varf) ; (int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf), (varf=test.in)]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[open(varf) ; (int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf), (varf=test.in)]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[open(varf) ; (int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf)]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[open(varf) ; (int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf)]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[(int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf), open(varf)]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[(int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf), open(varf)]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[(int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf)]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---FileTable--- 
+{test.in=java.io.BufferedReader@445a8ff9}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[(int varc) ; read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf)]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---FileTable--- 
+{test.in=java.io.BufferedReader@445a8ff9}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf), (int varc)]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---FileTable--- 
+{test.in=java.io.BufferedReader@445a8ff9}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf), (int varc)]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---FileTable--- 
+{test.in=java.io.BufferedReader@445a8ff9}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---FileTable--- 
+{test.in=java.io.BufferedReader@445a8ff9}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[read(varc,varf) ; print(varc) ; read(varc,varf) ; print(varc) ; close(varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---FileTable--- 
+{test.in=java.io.BufferedReader@445a8ff9}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[print(varc) ; read(varc,varf) ; print(varc) ; close(varf), read(varc,varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---FileTable--- 
+{test.in=java.io.BufferedReader@445a8ff9}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[print(varc) ; read(varc,varf) ; print(varc) ; close(varf), read(varc,varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---FileTable--- 
+{test.in=java.io.BufferedReader@445a8ff9}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[print(varc) ; read(varc,varf) ; print(varc) ; close(varf)]
+---SymTable--- 
+{varf=test.in, varc=15}
+---OutList--- 
+[]
+---FileTable--- 
+{test.in=java.io.BufferedReader@445a8ff9}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[print(varc) ; read(varc,varf) ; print(varc) ; close(varf)]
+---SymTable--- 
+{varf=test.in, varc=15}
+---OutList--- 
+[]
+---FileTable--- 
+{test.in=java.io.BufferedReader@445a8ff9}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[read(varc,varf) ; print(varc) ; close(varf), print(varc)]
+---SymTable--- 
+{varf=test.in, varc=15}
+---OutList--- 
+[]
+---FileTable--- 
+{test.in=java.io.BufferedReader@445a8ff9}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[read(varc,varf) ; print(varc) ; close(varf), print(varc)]
+---SymTable--- 
+{varf=test.in, varc=15}
+---OutList--- 
+[]
+---FileTable--- 
+{test.in=java.io.BufferedReader@445a8ff9}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[read(varc,varf) ; print(varc) ; close(varf)]
+---SymTable--- 
+{varf=test.in, varc=15}
+---OutList--- 
+[15]
+---FileTable--- 
+{test.in=java.io.BufferedReader@445a8ff9}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[read(varc,varf) ; print(varc) ; close(varf)]
+---SymTable--- 
+{varf=test.in, varc=15}
+---OutList--- 
+[15]
+---FileTable--- 
+{test.in=java.io.BufferedReader@445a8ff9}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[print(varc) ; close(varf), read(varc,varf)]
+---SymTable--- 
+{varf=test.in, varc=15}
+---OutList--- 
+[15]
+---FileTable--- 
+{test.in=java.io.BufferedReader@445a8ff9}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[print(varc) ; close(varf), read(varc,varf)]
+---SymTable--- 
+{varf=test.in, varc=15}
+---OutList--- 
+[15]
+---FileTable--- 
+{test.in=java.io.BufferedReader@445a8ff9}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[print(varc) ; close(varf)]
+---SymTable--- 
+{varf=test.in, varc=50}
+---OutList--- 
+[15]
+---FileTable--- 
+{test.in=java.io.BufferedReader@445a8ff9}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[print(varc) ; close(varf)]
+---SymTable--- 
+{varf=test.in, varc=50}
+---OutList--- 
+[15]
+---FileTable--- 
+{test.in=java.io.BufferedReader@445a8ff9}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[close(varf), print(varc)]
+---SymTable--- 
+{varf=test.in, varc=50}
+---OutList--- 
+[15]
+---FileTable--- 
+{test.in=java.io.BufferedReader@445a8ff9}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[close(varf), print(varc)]
+---SymTable--- 
+{varf=test.in, varc=50}
+---OutList--- 
+[15]
+---FileTable--- 
+{test.in=java.io.BufferedReader@445a8ff9}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[close(varf)]
+---SymTable--- 
+{varf=test.in, varc=50}
+---OutList--- 
+[15, 50]
+---FileTable--- 
+{test.in=java.io.BufferedReader@445a8ff9}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[close(varf)]
+---SymTable--- 
+{varf=test.in, varc=50}
+---OutList--- 
+[15, 50]
+---FileTable--- 
+{test.in=java.io.BufferedReader@445a8ff9}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+4
+---ExeStack--- 
+[]
+---SymTable--- 
+{varf=test.in, varc=50}
+---OutList--- 
+[15, 50]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+

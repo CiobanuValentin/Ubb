@@ -1,0 +1,952 @@
+---PrgID--- 
+9
+---ExeStack--- 
+[(Ref(int) v) ; new(v,20) ; (Ref(Ref(int)) a) ; new(a,v) ; new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i))))]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[new(v,20) ; (Ref(Ref(int)) a) ; new(a,v) ; new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i)))), (Ref(int) v)]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[new(v,20) ; (Ref(Ref(int)) a) ; new(a,v) ; new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i)))), (Ref(int) v)]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[new(v,20) ; (Ref(Ref(int)) a) ; new(a,v) ; new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i))))]
+---SymTable--- 
+{v=(0;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[new(v,20) ; (Ref(Ref(int)) a) ; new(a,v) ; new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i))))]
+---SymTable--- 
+{v=(0;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[(Ref(Ref(int)) a) ; new(a,v) ; new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i)))), new(v,20)]
+---SymTable--- 
+{v=(0;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[(Ref(Ref(int)) a) ; new(a,v) ; new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i)))), new(v,20)]
+---SymTable--- 
+{v=(0;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[(Ref(Ref(int)) a) ; new(a,v) ; new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i))))]
+---SymTable--- 
+{v=(1;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[(Ref(Ref(int)) a) ; new(a,v) ; new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i))))]
+---SymTable--- 
+{v=(1;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[new(a,v) ; new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i)))), (Ref(Ref(int)) a)]
+---SymTable--- 
+{v=(1;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[new(a,v) ; new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i)))), (Ref(Ref(int)) a)]
+---SymTable--- 
+{v=(1;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[new(a,v) ; new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i))))]
+---SymTable--- 
+{a=(0;Ref(int)), v=(1;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[new(a,v) ; new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i))))]
+---SymTable--- 
+{a=(0;Ref(int)), v=(1;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i)))), new(a,v)]
+---SymTable--- 
+{a=(0;Ref(int)), v=(1;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i)))), new(a,v)]
+---SymTable--- 
+{a=(0;Ref(int)), v=(1;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i))))]
+---SymTable--- 
+{a=(2;Ref(int)), v=(1;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int)}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i))))]
+---SymTable--- 
+{a=(2;Ref(int)), v=(1;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int)}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i)))), new(v,30)]
+---SymTable--- 
+{a=(2;Ref(int)), v=(1;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int)}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i)))), new(v,30)]
+---SymTable--- 
+{a=(2;Ref(int)), v=(1;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int)}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i))))]
+---SymTable--- 
+{a=(2;Ref(int)), v=(3;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int), 3=30}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i))))]
+---SymTable--- 
+{a=(2;Ref(int)), v=(3;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int), 3=30}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[(Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i)))), print(rH(rH(a)))]
+---SymTable--- 
+{a=(2;Ref(int)), v=(3;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int), 3=30}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[(Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i)))), print(rH(rH(a)))]
+---SymTable--- 
+{a=(2;Ref(int)), v=(3;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int), 3=30}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[(Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i))))]
+---SymTable--- 
+{a=(2;Ref(int)), v=(3;int)}
+---OutList--- 
+[20]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int), 3=30}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[(Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i))))]
+---SymTable--- 
+{a=(2;Ref(int)), v=(3;int)}
+---OutList--- 
+[20]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int), 3=30}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[new(i,a) ; print(rH(rH(rH(i)))), (Ref(Ref(Ref(int))) i)]
+---SymTable--- 
+{a=(2;Ref(int)), v=(3;int)}
+---OutList--- 
+[20]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int), 3=30}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[new(i,a) ; print(rH(rH(rH(i)))), (Ref(Ref(Ref(int))) i)]
+---SymTable--- 
+{a=(2;Ref(int)), v=(3;int)}
+---OutList--- 
+[20]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int), 3=30}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[new(i,a) ; print(rH(rH(rH(i))))]
+---SymTable--- 
+{a=(2;Ref(int)), v=(3;int), i=(0;Ref(Ref(int)))}
+---OutList--- 
+[20]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int), 3=30}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[new(i,a) ; print(rH(rH(rH(i))))]
+---SymTable--- 
+{a=(2;Ref(int)), v=(3;int), i=(0;Ref(Ref(int)))}
+---OutList--- 
+[20]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int), 3=30}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[print(rH(rH(rH(i)))), new(i,a)]
+---SymTable--- 
+{a=(2;Ref(int)), v=(3;int), i=(0;Ref(Ref(int)))}
+---OutList--- 
+[20]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int), 3=30}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[print(rH(rH(rH(i)))), new(i,a)]
+---SymTable--- 
+{a=(2;Ref(int)), v=(3;int), i=(0;Ref(Ref(int)))}
+---OutList--- 
+[20]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int), 3=30}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[print(rH(rH(rH(i))))]
+---SymTable--- 
+{a=(2;Ref(int)), v=(3;int), i=(4;Ref(Ref(int)))}
+---OutList--- 
+[20]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int), 3=30, 4=(2;Ref(int))}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[print(rH(rH(rH(i))))]
+---SymTable--- 
+{a=(2;Ref(int)), v=(3;int), i=(4;Ref(Ref(int)))}
+---OutList--- 
+[20]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int), 3=30, 4=(2;Ref(int))}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[]
+---SymTable--- 
+{a=(2;Ref(int)), v=(3;int), i=(4;Ref(Ref(int)))}
+---OutList--- 
+[20, 20]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int), 3=30, 4=(2;Ref(int))}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[(Ref(int) v) ; new(v,20) ; (Ref(Ref(int)) a) ; new(a,v) ; new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i))))]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[new(v,20) ; (Ref(Ref(int)) a) ; new(a,v) ; new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i)))), (Ref(int) v)]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[new(v,20) ; (Ref(Ref(int)) a) ; new(a,v) ; new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i)))), (Ref(int) v)]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[new(v,20) ; (Ref(Ref(int)) a) ; new(a,v) ; new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i))))]
+---SymTable--- 
+{v=(0;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[new(v,20) ; (Ref(Ref(int)) a) ; new(a,v) ; new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i))))]
+---SymTable--- 
+{v=(0;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[(Ref(Ref(int)) a) ; new(a,v) ; new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i)))), new(v,20)]
+---SymTable--- 
+{v=(0;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[(Ref(Ref(int)) a) ; new(a,v) ; new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i)))), new(v,20)]
+---SymTable--- 
+{v=(0;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[(Ref(Ref(int)) a) ; new(a,v) ; new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i))))]
+---SymTable--- 
+{v=(1;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[(Ref(Ref(int)) a) ; new(a,v) ; new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i))))]
+---SymTable--- 
+{v=(1;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[new(a,v) ; new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i)))), (Ref(Ref(int)) a)]
+---SymTable--- 
+{v=(1;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[new(a,v) ; new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i)))), (Ref(Ref(int)) a)]
+---SymTable--- 
+{v=(1;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[new(a,v) ; new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i))))]
+---SymTable--- 
+{a=(0;Ref(int)), v=(1;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[new(a,v) ; new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i))))]
+---SymTable--- 
+{a=(0;Ref(int)), v=(1;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i)))), new(a,v)]
+---SymTable--- 
+{a=(0;Ref(int)), v=(1;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i)))), new(a,v)]
+---SymTable--- 
+{a=(0;Ref(int)), v=(1;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i))))]
+---SymTable--- 
+{a=(2;Ref(int)), v=(1;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int)}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[new(v,30) ; print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i))))]
+---SymTable--- 
+{a=(2;Ref(int)), v=(1;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int)}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i)))), new(v,30)]
+---SymTable--- 
+{a=(2;Ref(int)), v=(1;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int)}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i)))), new(v,30)]
+---SymTable--- 
+{a=(2;Ref(int)), v=(1;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int)}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i))))]
+---SymTable--- 
+{a=(2;Ref(int)), v=(3;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int), 3=30}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[print(rH(rH(a))) ; (Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i))))]
+---SymTable--- 
+{a=(2;Ref(int)), v=(3;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int), 3=30}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[(Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i)))), print(rH(rH(a)))]
+---SymTable--- 
+{a=(2;Ref(int)), v=(3;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int), 3=30}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[(Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i)))), print(rH(rH(a)))]
+---SymTable--- 
+{a=(2;Ref(int)), v=(3;int)}
+---OutList--- 
+[]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int), 3=30}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[(Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i))))]
+---SymTable--- 
+{a=(2;Ref(int)), v=(3;int)}
+---OutList--- 
+[20]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int), 3=30}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[(Ref(Ref(Ref(int))) i) ; new(i,a) ; print(rH(rH(rH(i))))]
+---SymTable--- 
+{a=(2;Ref(int)), v=(3;int)}
+---OutList--- 
+[20]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int), 3=30}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[new(i,a) ; print(rH(rH(rH(i)))), (Ref(Ref(Ref(int))) i)]
+---SymTable--- 
+{a=(2;Ref(int)), v=(3;int)}
+---OutList--- 
+[20]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int), 3=30}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[new(i,a) ; print(rH(rH(rH(i)))), (Ref(Ref(Ref(int))) i)]
+---SymTable--- 
+{a=(2;Ref(int)), v=(3;int)}
+---OutList--- 
+[20]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int), 3=30}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[new(i,a) ; print(rH(rH(rH(i))))]
+---SymTable--- 
+{a=(2;Ref(int)), v=(3;int), i=(0;Ref(Ref(int)))}
+---OutList--- 
+[20]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int), 3=30}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[new(i,a) ; print(rH(rH(rH(i))))]
+---SymTable--- 
+{a=(2;Ref(int)), v=(3;int), i=(0;Ref(Ref(int)))}
+---OutList--- 
+[20]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int), 3=30}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[print(rH(rH(rH(i)))), new(i,a)]
+---SymTable--- 
+{a=(2;Ref(int)), v=(3;int), i=(0;Ref(Ref(int)))}
+---OutList--- 
+[20]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int), 3=30}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[print(rH(rH(rH(i)))), new(i,a)]
+---SymTable--- 
+{a=(2;Ref(int)), v=(3;int), i=(0;Ref(Ref(int)))}
+---OutList--- 
+[20]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int), 3=30}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[print(rH(rH(rH(i))))]
+---SymTable--- 
+{a=(2;Ref(int)), v=(3;int), i=(4;Ref(Ref(int)))}
+---OutList--- 
+[20]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int), 3=30, 4=(2;Ref(int))}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[print(rH(rH(rH(i))))]
+---SymTable--- 
+{a=(2;Ref(int)), v=(3;int), i=(4;Ref(Ref(int)))}
+---OutList--- 
+[20]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int), 3=30, 4=(2;Ref(int))}
+
+
+---PrgID--- 
+9
+---ExeStack--- 
+[]
+---SymTable--- 
+{a=(2;Ref(int)), v=(3;int), i=(4;Ref(Ref(int)))}
+---OutList--- 
+[20, 20]
+---FileTable--- 
+{}
+---HeapTable--- 
+{1=20, 2=(1;int), 3=30, 4=(2;Ref(int))}
+
+
